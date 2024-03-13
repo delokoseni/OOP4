@@ -127,7 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Content.cpp" />
+    <ClCompile Include="ContentFilter.cpp" />
+    <ClCompile Include="Microphone.cpp" />
+    <ClCompile Include="MobileApp.cpp" />
+    <ClCompile Include="NeuralNetwork.cpp" />
     <ClCompile Include="OOP4.cpp" />
+    <ClCompile Include="Request.cpp" />
+    <ClCompile Include="Speaker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Content.h" />
+    <ClInclude Include="ContentFilter.h" />
+    <ClInclude Include="Microphone.h" />
+    <ClInclude Include="MobileApp.h" />
+    <ClInclude Include="NeuralNetwork.h" />
+    <ClInclude Include="Request.h" />
+    <ClInclude Include="Speaker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
