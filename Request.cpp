@@ -1,19 +1,19 @@
 #include "Request.h"
 
-Request::Request(bool isChild, int personID, std::string record, SendRequest* destenition)
+Request::Request(bool IsChild, int PersonID, std::string Record, SendRequest* Destenition)
 {
-	this->isChild = isChild;
-	this->personID = personID;
-	this->record = record;
-	this->destenition = destenition;
+	this->IsChild = IsChild;
+	this->PersonID = PersonID;
+	this->Record = Record;
+	this->Destenition = Destenition;
 }
 
 bool Request::GetIsChild()
 {
-	return isChild;
+	return IsChild;
 }
 
 void Request::Send()
 {
-	destenition->Send();
+	Destenition->Send();
 }

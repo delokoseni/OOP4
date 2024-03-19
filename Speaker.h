@@ -5,16 +5,14 @@ class Speaker
 {
 public:
 	Speaker();
-	void SetVolume(int volume);
+	void SetVolume(int Volume);
 	int GetVolume();
 	int GetMaxVolume();
 	int GetMinVolume();
-	void PlayContent(Content content);
-	void StopPlayingContent();
 private:
-	int volume;
-	int maxvolume;
-	int minvolume;
+	int Volume;
+	int MaxVolume;
+	int MinVolume;
 };
 
 

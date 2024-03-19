@@ -4,9 +4,10 @@
 
 class BPVolumeUp : public ButtonPressed
 {
-	virtual void Press() override;
 public:
-	Speaker* speaker;
+	virtual void Press() override;
 	BPVolumeUp(Speaker* speaker);
+private:
+	Speaker* speaker;
 };
 

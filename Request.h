@@ -5,12 +5,12 @@
 class Request
 {
 public:
-	Request(bool isChild, int personID, std::string record, SendRequest* destenition);
+	Request(bool IsChild, int PersonID, std::string Record, SendRequest* Destenition);
 	bool GetIsChild();
 	void Send();
 private:
-	bool isChild;
-	int personID;
-	std::string record;
-	SendRequest* destenition;
+	bool IsChild;
+	int PersonID;
+	std::string Record;
+	SendRequest* Destenition;
 };

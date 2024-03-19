@@ -5,8 +5,8 @@
 class BPVoiceAssistant : public ButtonPressed
 {
 public:
-	BPVoiceAssistant(VoiceAssistentNN* voiceassistent);
 	virtual void Press() override;
+	BPVoiceAssistant(VoiceAssistentNN* voiceassistent);
 private:
 	VoiceAssistentNN* voiceassistent;
 };

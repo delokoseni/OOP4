@@ -2,39 +2,29 @@
 
 Speaker::Speaker()
 {
-	volume = 50;
-	maxvolume = 100;
-	minvolume = 0;
+	Volume = 50;
+	MaxVolume = 100;
+	MinVolume = 0;
 }
 
-void Speaker::SetVolume(int volume)
+void Speaker::SetVolume(int Volume)
 {
-	this->volume = volume;
+	this->Volume = Volume;
 }
 
 int Speaker::GetVolume()
 {
-	return volume;
+	return Volume;
 }
-
 
 int Speaker::GetMaxVolume()
 {
-	return maxvolume;
+	return MaxVolume;
 }
 
 int Speaker::GetMinVolume()
 {
-	return minvolume;
+	return MinVolume;
 }
 
-void Speaker::PlayContent(Content content)
-{
-
-}
-
-void Speaker::StopPlayingContent()
-{
-
-}
 
