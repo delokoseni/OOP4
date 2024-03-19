@@ -19,17 +19,22 @@ int main()
 
     std::cout << "Speaker volume: " << speaker.GetVolume() << std::endl;
 
-    BPVolumeDown* volumedownAction = new BPVolumeDown();
+    BPVolumeDown* volumedownAction = new BPVolumeDown(&speaker);
     Button volumedownButton(volumedownAction);
     volumedownButton.Press();
 
     std::cout << "Speaker volume: " << speaker.GetVolume() << std::endl;
 
-    BPMicrophoneMute* micromuteAction = new BPMicrophoneMute();
+    Microphone microphone;
+
+    BPMicrophoneMute* micromuteAction = new BPMicrophoneMute(&microphone);
     Button micromuteButton(micromuteAction);
     micromuteButton.Press();
+    micromuteButton.Press();
 
-    BPVoiceAssistant* assiststopAction = new BPVoiceAssistant();
+    VoiceAssistentNN voiceassistant;
+
+    BPVoiceAssistant* assiststopAction = new BPVoiceAssistant(&voiceassistant);
     Button assiststopButton(assiststopAction);
     assiststopButton.Press();
     return 0;
