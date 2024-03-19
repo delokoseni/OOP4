@@ -1,9 +1,15 @@
 #pragma once
+#include "ContentFilter.h"
 
-class Content
+class Content : public ContentFilter
 {
 public:
-	void SendContent();
-	void MakeContentDescription();
+	Content(std::string AudioContent, std::string ShortDescription, bool AvailableForChildren);
+	virtual void GetContent() override;
+	virtual void GetAdultContent() override;
+	bool GetAvailableForChildren();
+private:
+	std::string AudioContent;
+	std::string ShortDescription;
+	bool AvailableForChildren;
 };
-

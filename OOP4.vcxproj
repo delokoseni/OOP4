@@ -135,12 +135,17 @@
     <ClCompile Include="ButtonPressed.cpp" />
     <ClCompile Include="Content.cpp" />
     <ClCompile Include="ContentFilter.cpp" />
+    <ClCompile Include="ContentProxy.cpp" />
     <ClCompile Include="Microphone.cpp" />
     <ClCompile Include="MobileApp.cpp" />
     <ClCompile Include="NeuralNetwork.cpp" />
     <ClCompile Include="OOP4.cpp" />
     <ClCompile Include="Request.cpp" />
+    <ClCompile Include="SendRequest.cpp" />
     <ClCompile Include="Speaker.cpp" />
+    <ClCompile Include="SRMobileApp.cpp" />
+    <ClCompile Include="SRNewsService.cpp" />
+    <ClCompile Include="SRSearchService.cpp" />
     <ClCompile Include="VoiceAssistentNN.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -152,11 +157,16 @@
     <ClInclude Include="ButtonPressed.h" />
     <ClInclude Include="Content.h" />
     <ClInclude Include="ContentFilter.h" />
+    <ClInclude Include="ContentProxy.h" />
     <ClInclude Include="Microphone.h" />
     <ClInclude Include="MobileApp.h" />
     <ClInclude Include="NeuralNetwork.h" />
     <ClInclude Include="Request.h" />
+    <ClInclude Include="SendRequest.h" />
     <ClInclude Include="Speaker.h" />
+    <ClInclude Include="SRMobileApp.h" />
+    <ClInclude Include="SRNewsService.h" />
+    <ClInclude Include="SRSearchService.h" />
     <ClInclude Include="VoiceAssistentNN.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

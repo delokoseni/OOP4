@@ -4,6 +4,7 @@
 Microphone::Microphone()
 {
 	IsMuted = false;
+	Record = "";
 }
 
 bool Microphone::GetIsMuted()
